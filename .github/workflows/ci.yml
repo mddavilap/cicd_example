@@ -42,3 +42,13 @@ jobs:
       - name: Run tests
         run: bash scripts/test.sh
 
+  docs:
+    needs: [lint, test]
+    uses: ./.github/workflows/docs.yml
+    with:
+      deploy-pages: true
+    permissions: 
+      contents: read
+      pages: write
+      id-token: write
+
