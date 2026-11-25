@@ -2,7 +2,8 @@
 
 def greet(name: str = "World") -> str:
     """Return a greeting.
-    
+
+    This is a short explanatory sentence.
     :param name: Name of the person or entity to greet.
         Defaults to "World".
     :Returns: A friendly greeting.
