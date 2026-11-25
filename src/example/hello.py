@@ -7,7 +7,7 @@ def greet(name: str = "World") -> str:
         Defaults to "World".
     :Returns: A friendly greeting.
     """
-    return f"Bonjour, {name}!"
+    return f"Hello, {name}!"
 
 
 if __name__ == "__main__":
